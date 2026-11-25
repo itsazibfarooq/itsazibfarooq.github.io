@@ -1071,3 +1071,58 @@ nav[data-toggle="toc"] {
   font-weight: 700;
   color: #2e9b4f;
 }
+
+// Intro links under the bio: icon + label pills
+.intro-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--global-theme-color);
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+      background-color: var(--global-theme-color);
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+// Navbar social icons (top left): colored square icons
+#navbar .navbar-brand.social {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 1.25rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 4px;
+    color: #fff !important;
+    margin: 0;
+    font-size: 1.1rem;
+
+    &:hover { opacity: 0.85; text-decoration: none; }
+    &[title="email"] { background-color: #d14836 !important; }
+    &[title="Google Scholar"] { background-color: #4285f4 !important; }
+    &[title="GitHub"] { background-color: #24292e !important; }
+    &[title="LinkedIn"] { background-color: #0a66c2 !important; }
+
+    i, i::before { color: #fff !important; }
+  }
+}

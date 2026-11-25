@@ -25,4 +25,10 @@ social: true  # includes social icons at the bottom of the page
 
 I serve as a <b>reviewer</b> for <span class="venue">AAAI 2026/2027</span> and <span class="venue">IJCNN 2026</span>.
 
- <a href="mailto:azibfaroq@gmail.com"><b>Email</b></a>  /  <a href="https://github.com/itsazibfarooq"><b>Github</b></a>  /  <a href="https://www.linkedin.com/in/itsazibfarooq/"><b>LinkedIn</b></a>  /  <a href="/cv/"><b>CV</b></a>
+<div class="intro-links">
+  <a href="mailto:azibfaroq@gmail.com" title="Email"><i class="fas fa-envelope"></i> Email</a>
+  <a href="https://scholar.google.com/citations?user=LNWuVNkAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+  <a href="https://github.com/itsazibfarooq" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+  <a href="https://www.linkedin.com/in/itsazibfarooq/" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+  <a href="/cv/" title="CV"><i class="fas fa-file-alt"></i> CV</a>
+</div>
