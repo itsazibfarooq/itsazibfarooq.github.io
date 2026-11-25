@@ -1255,3 +1255,18 @@ nav[data-toggle="toc"] {
     text-decoration: none;
   }
 }
+
+// Availability banner on the About page
+.announcement-banner {
+  margin: 0.5rem 0 1.5rem;
+  padding: 0.85rem 1.1rem;
+  border-top: 3px solid #2e9b4f;
+  border-radius: 4px;
+  background-color: rgba(46, 155, 79, 0.1);
+  color: #2e9b4f;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.6;
+
+  b { font-weight: 800; }
+}

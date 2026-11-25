@@ -11,6 +11,10 @@ layout: default
           <p class="desc">{{ page.subtitle }}</p>
         </header>
 
+        {% if page.announcement -%}
+        <div class="announcement-banner" role="note">{{ page.announcement }}</div>
+        {%- endif %}
+
         <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">

@@ -11,6 +11,11 @@ profile:
   address: >
     <p>Orlando, Florida, USA</p>
 
+# Banner shown above the bio; delete or comment out this line to hide it
+announcement: >
+  🔎 Seeking <b>research internship</b> opportunities in <b>Vision-Language-Action Models, World Models, and Reinforcement Learning</b> ·
+  No visa sponsorship required, now or in the future.
+
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
