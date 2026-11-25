@@ -1220,3 +1220,38 @@ nav[data-toggle="toc"] {
   pre { font-size: 0.85rem; border-radius: 6px; padding: 0.9rem 1rem; }
   blockquote { border-left: 4px solid var(--global-theme-color); padding: 0.2rem 1rem; }
 }
+
+// Profile photo: black and white, back to color on hover
+.profile img {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease-in-out;
+
+  &:hover {
+    filter: grayscale(0%);
+  }
+}
+
+// CV page download button
+.cv-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.cv-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  background-color: var(--global-theme-color);
+  color: #fff !important;
+
+  &:hover {
+    opacity: 0.85;
+    text-decoration: none;
+  }
+}
