@@ -13,8 +13,8 @@ profile:
 
 # Banner shown above the bio; delete or comment out this line to hide it
 announcement: >
-  🔎 Open to <b>research internship and work collaboration</b> opportunities in <b> AI/ML</b> ·
-  No visa sponsorship required, now or in the future.
+  🔎 Open to <b>research internship and work collaboration</b> opportunities in <b> AI/ML</b>·
+  <br>No visa sponsorship required, now or in the future.
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
