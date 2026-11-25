@@ -13,7 +13,7 @@ profile:
 
 # Banner shown above the bio; delete or comment out this line to hide it
 announcement: >
-  🔎 Seeking <b>research internship</b> opportunities in <b>Vision-Language-Action Models, World Models, and Reinforcement Learning</b> ·
+  🔎 Open to <b>research internship and work collaboration</b> opportunities in <b> AI/ML</b> ·
   No visa sponsorship required, now or in the future.
 
 news: true  # includes a list of news items
