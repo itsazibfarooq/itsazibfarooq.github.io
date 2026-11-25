@@ -3,7 +3,13 @@
   <script type="text/javascript">
     window.MathJax = {
       tex: {
-        tags: 'ams'
+        tags: 'ams',
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       }
     };
   </script>

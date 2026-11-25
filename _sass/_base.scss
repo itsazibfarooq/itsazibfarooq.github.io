@@ -1126,3 +1126,97 @@ nav[data-toggle="toc"] {
     i, i::before { color: #fff !important; }
   }
 }
+
+// ---------------------------------------------------------------------------
+// Blog (list + post), in the spirit of lilianweng.github.io
+// ---------------------------------------------------------------------------
+.blog-index {
+  .blog-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+  }
+  .blog-entry {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  .blog-entry-title {
+    font-size: 1.45rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    a { color: var(--global-text-color); }
+    a:hover { color: var(--global-theme-color); text-decoration: none; }
+  }
+  .blog-entry-summary {
+    margin-bottom: 0.4rem;
+    line-height: 1.6;
+  }
+  .blog-entry-meta {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    margin: 0;
+  }
+  .blog-empty {
+    margin-top: 2rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+.post-content {
+  font-size: 1.04rem;
+  line-height: 1.75;
+
+  h1, h2, h3, h4 { font-weight: 700; margin-top: 2rem; }
+  h2 { border-bottom: 1px solid var(--global-divider-color); padding-bottom: 0.3rem; }
+
+  #table-of-contents {
+    background: var(--global-code-bg-color, rgba(127,127,127,0.08));
+    border-radius: 6px;
+    padding: 0.8rem 1.2rem;
+    font-size: 0.95rem;
+    &::before {
+      content: "Table of Contents";
+      display: block;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+    ul { margin-bottom: 0; }
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 1.2rem auto 0.4rem;
+    border-radius: 4px;
+  }
+  // a line of italic text right after an image acts as its caption
+  img + em, p > img + br + em {
+    display: block;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+
+  blockquote {
+    border-left: 4px solid var(--global-theme-color);
+    padding: 0.2rem 1rem;
+    color: var(--global-text-color-light);
+  }
+
+  pre {
+    border-radius: 6px;
+    padding: 0.9rem 1rem;
+    font-size: 0.88rem;
+  }
+
+  mjx-container[display="true"] {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+.post-citation {
+  margin-top: 3rem;
+  pre { font-size: 0.85rem; border-radius: 6px; padding: 0.9rem 1rem; }
+  blockquote { border-left: 4px solid var(--global-theme-color); padding: 0.2rem 1rem; }
+}

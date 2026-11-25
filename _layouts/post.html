@@ -17,7 +17,8 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
+    {%- assign read_time = content | number_of_words | divided_by: 200 | plus: 1 -%}
+    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }} &middot; {{ read_time }} min read{%- if page.author -%} &middot; {{ page.author }}{%- endif -%}{%- if page.meta -%} &middot; {{ page.meta }}{%- endif -%}</p>
     <p class="post-tags">
       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
       {%- if tags != "" %}
@@ -50,6 +51,24 @@ layout: default
       {{ content }}
     </div>
   </article>
+
+  {%- unless page.citation == false %}
+  {%- assign cite_key = page.title | slugify | split: '-' | first -%}
+  <div class="post-citation">
+    <h2 id="citation">Citation</h2>
+    <p>Cited as:</p>
+    <blockquote>{{ page.author | default: site.first_name }}. ({{ page.date | date: "%b %Y" }}). {{ page.title }}. {{ site.url }}{{ page.url | relative_url }}.</blockquote>
+    <p>Or</p>
+<pre><code>@article{farooq{{ page.date | date: "%Y" }}{{ cite_key }},
+  title   = "{{ page.title }}",
+  author  = "{{ page.author | default: site.first_name }}",
+  journal = "itsazibfarooq.github.io",
+  year    = "{{ page.date | date: "%Y" }}",
+  month   = "{{ page.date | date: "%b" }}",
+  url     = "{{ site.url }}{{ page.url | relative_url }}"
+}</code></pre>
+  </div>
+  {%- endunless %}
 
   {%- if page.related_publications != null and page.related_publications.size > 0 -%}
   {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
