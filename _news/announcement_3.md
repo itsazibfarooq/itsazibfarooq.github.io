@@ -4,4 +4,4 @@ date: 2023-08-20 12:00:00-0400
 inline: true
 related_posts: false
 ---
-Started my MS in Computer Science at Miami University on a fully funded scholarship.
+🎓 Started my <b>M.S. in Computer Science</b> at <a href="https://miamioh.edu/">Miami University</a> on a <u>fully funded scholarship</u>.

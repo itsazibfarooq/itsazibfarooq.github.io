@@ -572,7 +572,7 @@ footer.sticky-bottom {
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin-bottom: 0.5rem;
     text-align: right;
   }
 
@@ -587,12 +587,17 @@ footer.sticky-bottom {
       .preview {
         width: 100%;
         min-width: 80px;
-        max-width: 200px;
+        max-width: 100%;
+        background: #fff;
       }
 
       .abbr {
-        height: 2rem;
         margin-bottom: 0.5rem;
+
+        figure, img.preview {
+          margin-top: 0.5rem;
+          margin-bottom: 0;
+        }
 
         abbr {
           display: inline-block;
@@ -1033,4 +1038,36 @@ nav[data-toggle="toc"] {
     margin-bottom: 0;
     padding-top: 0.5rem;
   }
+}
+
+// News: date badges and rich text highlights
+.news {
+  .news-date-cell {
+    width: 9.5rem;
+    vertical-align: top;
+    padding-top: 0.55rem;
+  }
+  .news-date {
+    background-color: var(--global-theme-color);
+    color: #fff;
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
+    padding: 0.35rem 0.55rem;
+    white-space: nowrap;
+  }
+  .news-text {
+    line-height: 1.6;
+  }
+}
+.hl {
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+.venue {
+  font-weight: 700;
+  color: var(--global-theme-color);
+}
+.accept {
+  font-weight: 700;
+  color: #2e9b4f;
 }

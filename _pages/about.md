@@ -17,12 +17,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I am Azib Farooq, a PhD student in Computer Engineering at the <a href="https://www.ucf.edu/">University of Central Florida</a> (transferred from the University of Cincinnati), where I am a Graduate Trustee Fellow. Previously, I completed my MS in Computer Science at <a href="https://miamioh.edu/">Miami University</a> on a fully funded scholarship, and my BSc in Electrical Engineering at UET Taxila, Pakistan.
+<b>Hi!</b> I am <b>Azib Farooq</b>, a <b>Ph.D. student in Computer Engineering</b> at the <a href="https://www.ucf.edu/">University of Central Florida</a> (transferred from the University of Cincinnati), where I am a <span class="hl">Graduate Trustee Fellow</span>. Previously, I completed my <b>M.S. in Computer Science</b> at <a href="https://miamioh.edu/">Miami University</a> on a <u>fully funded scholarship</u> (GPA 4.00/4.00), and my <b>B.Sc. in Electrical Engineering</b> at UET Taxila, Pakistan.
 
-<b> My current research interests </b> include vision-language-action (VLA) models, world models, and reinforcement learning. I work on making VLA inference faster through action-aware visual token reduction for flow-matching (pi0, pi0.5) and autoregressive action decoders, and on using learned video world models to generate synthetic manipulation trajectories so that robot policies depend less on teleoperated demonstrations.
+<b>My current research interests</b> include <span class="hl">vision-language-action (VLA) models</span>, <span class="hl">world models</span>, and <span class="hl">reinforcement learning</span>. I work on making VLA inference faster through <b>action-aware visual token reduction</b> for flow-matching (<i>pi0, pi0.5</i>) and autoregressive action decoders, and on using <b>learned video world models</b> to generate synthetic manipulation trajectories so that robot policies depend less on teleoperated demonstrations.
 
-<b> Previously</b>, I worked on diffusion-based 3D and 4D scene editing (NeRF, 3D Gaussian Splatting), efficient on-device inference (quantization, pruning, distillation, TensorRT) as a Research Assistant at the Procter & Gamble Digital Accelerator, and on code-repair and tutoring agents as a Machine Learning Engineer at AlgoLab.
+<b>Previously</b>, I worked on <b>diffusion-based 3D and 4D scene editing</b> (NeRF, 3D Gaussian Splatting), published at venues including <span class="venue">ECCV</span>, <span class="venue">ACL</span>, and <span class="venue">Information Fusion</span>. I also worked on <b>efficient on-device inference</b> (quantization, pruning, distillation, TensorRT) as a Research Assistant at the <b>Procter &amp; Gamble Digital Accelerator</b>, and on code-repair and tutoring agents as a Machine Learning Engineer at <b>AlgoLab</b>.
 
-I serve as a reviewer for AAAI and IJCNN.
+I serve as a <b>reviewer</b> for <span class="venue">AAAI 2026/2027</span> and <span class="venue">IJCNN 2026</span>.
 
- <a href="mailto:azibfaroq@gmail.com">Email</a>  /  <a href="https://github.com/itsazibfarooq">Github</a>  /  <a href="https://www.linkedin.com/in/itsazibfarooq/">LinkedIn</a>  /  <a href="/cv/">CV</a>
+ <a href="mailto:azibfaroq@gmail.com"><b>Email</b></a>  /  <a href="https://github.com/itsazibfarooq"><b>Github</b></a>  /  <a href="https://www.linkedin.com/in/itsazibfarooq/"><b>LinkedIn</b></a>  /  <a href="/cv/"><b>CV</b></a>

@@ -1,82 +1,129 @@
 ---
 ---
 @article{farooq2026agentic,
-  author    = {Farooq, Azib and Raza, Shaina and Karim, Nazmul and Iqbal, Hasan and Vasilakos, Athanasios and Emmanouilidis, Christos},
-  title     = {Evaluating and Regulating Agentic AI: A Study of Benchmarks, Metrics and Regulation},
-  journal   = {Information Fusion},
-  year      = {2026},
-  abbr      = {Inf. Fusion},
-  selected  = {true},
-  code      = {https://github.com/itsazibfarooq/agentic-metrics}
+  author      = {Farooq, Azib and Raza, Shaina and Karim, Nazmul and Iqbal, Hasan and Vasilakos, Athanasios and Emmanouilidis, Christos},
+  title       = {Evaluating and Regulating Agentic AI: A Study of Benchmarks, Metrics and Regulation},
+  journal     = {Information Fusion},
+  year        = {2026},
+  abbr        = {Inf. Fusion},
+  preview     = {agentic.jpg},
+  abstract    = {Agentic AI represents a new generation of Artificial Intelligence (AI) systems capable of perceiving, reasoning, planning, and acting toward achieving goals with a degree of autonomy. Unlike traditional AI models that merely generate outputs, these systems maintain memory, interact with their environment, and adapt over time. However, evaluating such interactive and evolving behavior remains a significant challenge. While several recent surveys have examined agentic AI architectures, components, and applications, few have systematically reviewed their evaluation, particularly regarding performance, reliability, and governance across an evolving agentic AI ecosystem. This paper addresses that gap by reviewing recent progress in the development and assessment of agentic AI, focusing on three core dimensions: benchmarks, metrics, and governance. We analyze how current evaluation frameworks capture reasoning, planning, collaboration, and ethical alignment across single- and multi-agent systems. Ultimately, this study aims to establish a unified foundation for building trustworthy, auditable, and human-aligned AI agents.},
+  html        = {https://doi.org/10.1016/j.inffus.2026.104444},
+  pdf         = {https://www.techrxiv.org/doi/full/10.36227/techrxiv.176186841.18883348/v1},
+  website     = {https://itsazibfarooq.github.io/agenticEvaluation/},
+  code        = {https://github.com/itsazibfarooq/agentic-metrics},
+  bibtex_show = {true},
+  selected    = {true}
 }
 
 @inproceedings{farooq2026dataless,
-  author    = {Farooq, Azib and Jena, Sangram K.},
-  title     = {Dataless Neural Network Models for Variants of Domination},
-  booktitle = {International Symposium on Combinatorial Optimization (ISCO)},
-  year      = {2026},
-  abbr      = {ISCO},
-  selected  = {true},
-  code      = {https://github.com/itsazibfarooq/dataless},
-  website   = {https://pypi.org/project/dataless/}
+  author      = {Farooq, Azib and Jena, Sangram K.},
+  title       = {Dataless Neural Network Models for Variants of Domination},
+  booktitle   = {International Symposium on Combinatorial Optimization (ISCO)},
+  year        = {2026},
+  abbr        = {ISCO},
+  preview     = {dataless.jpg},
+  code        = {https://github.com/itsazibfarooq/dataless},
+  website     = {https://pypi.org/project/dataless/},
+  bibtex_show = {true},
+  selected    = {true}
 }
 
 @inproceedings{chaduvula2026factuality,
-  author    = {Chaduvula, Sindhu and Radwan, Ahmed and Farooq, Azib and others},
-  title     = {Reducing Hallucinations in LLMs via Factuality-Aware Preference Learning},
-  booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
-  year      = {2026},
-  abbr      = {ACL},
-  selected  = {true}
+  author      = {Chaduvula, Sindhu and Radwan, Ahmed and Farooq, Azib and others},
+  title       = {Reducing Hallucinations in LLMs via Factuality-Aware Preference Learning},
+  booktitle   = {Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year        = {2026},
+  abbr        = {ACL},
+  preview     = {halluc.jpg},
+  abstract    = {Preference alignment methods such as RLHF and Direct Preference Optimization (DPO) improve instruction following, but they can also reinforce hallucinations when preference judgments reward fluency and confidence over factual correctness. We introduce F-DPO (Factuality-aware Direct Preference Optimization), a simple extension of DPO that uses only binary factuality labels. F-DPO (i) applies a label-flipping transformation that corrects misordered preference pairs so the chosen response is never less factual than the rejected one, and (ii) adds a factuality-aware margin that emphasizes pairs with clear correctness differences, while reducing to standard DPO when both responses share the same factuality. We construct factuality-aware preference data by augmenting DPO pairs with binary factuality indicators and synthetic hallucinated variants. Across seven open-weight LLMs (1B-14B), F-DPO consistently improves factuality and reduces hallucination rates relative to both base models and standard DPO. On Qwen3-8B, F-DPO reduces hallucination rates by 5x(from 0.424 to 0.084) while improving factuality scores by 50\% (from 5.26 to 7.90). F-DPO also generalizes to out-of-distribution benchmarks: on TruthfulQA, Qwen2.5-14B achieves +17\% MC1 accuracy (0.500 to 0.585) and +49\% MC2 accuracy (0.357 to 0.531). F-DPO requires no auxiliary reward model, token-level annotations, or multi-stage training.},
+  arxiv       = {2601.03027},
+  pdf         = {https://arxiv.org/pdf/2601.03027},
+  html        = {https://arxiv.org/html/2601.03027},
+  bibtex_show = {true},
+  selected    = {true}
 }
 
 @inproceedings{raza2026vilbias,
-  author    = {Raza, Shaina and Saleh, Caesar and Farooq, Azib and others},
-  title     = {ViLBias: Detecting and Reasoning about Bias in Multimodal Content},
-  booktitle = {IASEAI},
-  year      = {2026},
-  abbr      = {IASEAI}
+  author      = {Raza, Shaina and Saleh, Caesar and Farooq, Azib and others},
+  title       = {ViLBias: Detecting and Reasoning about Bias in Multimodal Content},
+  booktitle   = {International Association for Safe and Ethical AI (IASEAI)},
+  year        = {2026},
+  abbr        = {IASEAI},
+  preview     = {vilbias.jpg},
+  abstract    = {Detecting bias in multimodal news requires models that reason over text--image pairs, not just classify text. In response, we present ViLBias, a VQA-style benchmark and framework for detecting and reasoning about bias in multimodal news. The dataset comprises 40,945 text--image pairs from diverse outlets, each annotated with a bias label and concise rationale using a two-stage LLM-as-annotator pipeline with hierarchical majority voting and human-in-the-loop validation. We evaluate Small Language Models (SLMs), Large Language Models (LLMs), and Vision--Language Models (VLMs) across closed-ended classification and open-ended reasoning (oVQA), and compare parameter-efficient tuning strategies. Results show that incorporating images alongside text improves detection accuracy by 3--5\\%, and that LLMs/VLMs better capture subtle framing and text--image inconsistencies than SLMs. Parameter-efficient methods (LoRA/QLoRA/Adapters) recover 97--99\\% of full fine-tuning performance with $andlt;5\\%$ trainable parameters. For oVQA, reasoning accuracy spans 52--79\\% and faithfulness 68--89\\%, both improved by instruction tuning; closed accuracy correlates strongly with reasoning ($r = 0.91$). ViLBias offers a scalable benchmark and strong baselines for multimodal bias detection and rationale quality.},
+  arxiv       = {2412.17052},
+  pdf         = {https://arxiv.org/pdf/2412.17052},
+  html        = {https://arxiv.org/html/2412.17052},
+  bibtex_show = {true}
 }
 
 @inproceedings{iqbal2026psf4d,
-  author    = {Iqbal, Hasan and Karim, Nazmul and Farooq, Azib and others},
-  title     = {PSF-4D: A Progressive Sampling Framework for View Consistent 4D Editing},
-  booktitle = {Shape Modeling International (SMI)},
-  year      = {2026},
-  abbr      = {SMI},
-  selected  = {true}
+  author      = {Iqbal, Hasan and Karim, Nazmul and Farooq, Azib and others},
+  title       = {PSF-4D: A Progressive Sampling Framework for View Consistent 4D Editing},
+  booktitle   = {Shape Modeling International (SMI)},
+  year        = {2026},
+  abbr        = {SMI},
+  preview     = {psf4d.jpg},
+  abstract    = {Instruction-guided generative models, especially those using text-to-image (T2I) and text-to-video (T2V) diffusion frameworks, have advanced the field of content editing in recent years. To extend these capabilities to 4D scene, we introduce a progressive sampling framework for 4D editing (PSF-4D) that ensures temporal and multi-view consistency by intuitively controlling the noise initialization during forward diffusion. For temporal coherence, we design a correlated Gaussian noise structure that links frames over time, allowing each frame to depend meaningfully on prior frames. Additionally, to ensure spatial consistency across views, we implement a cross-view noise model, which uses shared and independent noise components to balance commonalities and distinct details among different views. To further enhance spatial coherence, PSF-4D incorporates view-consistent iterative refinement, embedding view-aware information into the denoising process to ensure aligned edits across frames and views. Our approach enables high-quality 4D editing without relying on external models, addressing key challenges in previous methods. Through extensive evaluation on multiple benchmarks and multiple editing aspects (e.g., style transfer, multi-attribute editing, object removal, local editing, etc.), we show the effectiveness of our proposed method. Experimental results demonstrate that our proposed method outperforms state-of-the-art 4D editing methods in diverse benchmarks.},
+  arxiv       = {2503.11044},
+  pdf         = {https://arxiv.org/pdf/2503.11044},
+  html        = {https://arxiv.org/html/2503.11044},
+  bibtex_show = {true},
+  selected    = {true}
 }
 
 @inproceedings{khalid2026evlm,
-  author    = {Khalid, Umar and Munir, Kashif and Iqbal, Hasan and Farooq, Azib and others},
-  title     = {EVLM: Self-Reflective Multimodal Reasoning for Cross-Dimensional Visual Editing},
-  booktitle = {AAAI 2026 CLIP Workshop},
-  year      = {2026},
-  abbr      = {AAAI-W}
+  author      = {Khalid, Umar and Munir, Kashif and Iqbal, Hasan and Farooq, Azib and others},
+  title       = {EVLM: Self-Reflective Multimodal Reasoning for Cross-Dimensional Visual Editing},
+  booktitle   = {AAAI 2026 CLIP Workshop},
+  year        = {2026},
+  abbr        = {AAAI-W},
+  preview     = {evlm.jpg},
+  abstract    = {Editing complex visual content from ambiguous or partially specified instructions remains a core challenge in vision-language modeling. Existing models can contextualize content but often fail to infer the underlying intent within a reference image or scene, leading to inconsistent or misaligned edits. We introduce the Editing Vision-Language Model (EVLM), a system that interprets ambiguous instructions in conjunction with reference visuals to produce precise, context-aware editing prompts. EVLM's key innovation is a reflective reasoning framework that translates subjective user intent into structured, actionable outputs by aligning with human-rated rationales through Reflection-Aware KL-Divergence Target Optimization (RKTO). By combining Chain-of-Thought (CoT) reasoning with RKTO alignment, EVLM captures fine-grained editing preferences without relying on binary supervision. Trained on a dataset of 30,000 CoT examples with human-annotated rationale quality, EVLM achieves substantial gains in alignment with human intent. Experiments across image, video, 3D, and 4D editing tasks show that EVLM generates coherent and high-quality instructions, providing a scalable foundation for multimodal editing and reasoning.},
+  arxiv       = {2412.10566},
+  pdf         = {https://arxiv.org/pdf/2412.10566},
+  html        = {https://arxiv.org/html/2412.10566},
+  bibtex_show = {true}
 }
 
 @article{khan2025bullet,
-  author    = {Khan, Shaheer and Bhowmick, Nirman and Farooq, Azib and others},
-  title     = {Advanced Interpretation of Bullet-Affected Chest X-Rays Using Deep Transfer Learning},
-  journal   = {Journal of Artificial Intelligence},
-  year      = {2025},
-  abbr      = {JAI}
+  author      = {Khan, Shaheer and Bhowmick, Nirman and Farooq, Azib and others},
+  title       = {Advanced Interpretation of Bullet-Affected Chest X-Rays Using Deep Transfer Learning},
+  journal     = {AI (MDPI)},
+  year        = {2025},
+  abbr        = {MDPI AI},
+  preview     = {bullet.jpg},
+  abstract    = {Deep learning has brought substantial progress to medical imaging, which has resulted in continuous improvements in diagnostic procedures. Through deep learning architecture implementations, radiology professionals achieve automated pathological condition detection, segmentation, and classification with improved accuracy. The research tackles a rarely studied clinical medical imaging issue that involves bullet identification and positioning within X-ray images. The purpose is to construct a sturdy deep learning system that will identify and classify ballistic trauma in images. Our research examined various deep learning models that functioned either as classifiers or as object detectors to develop effective solutions for ballistic trauma detection in X-ray images. Research data was developed by replicating controlled bullet damage in chest X-rays while expanding to a wider range of anatomical areas that include the legs, abdomen, and head. This research provides new perspectives on understanding forensic radiology trauma assessment by developing the first deep learning system that detects and classifies gun-related radiographic injuries automatically.},
+  html        = {https://www.mdpi.com/2673-2688/6/6/125},
+  pdf         = {https://www.mdpi.com/2673-2688/6/6/125/pdf},
+  bibtex_show = {true}
 }
 
 @inproceedings{khalid20243dego,
-  author    = {Khalid, Umar and Iqbal, Hasan and Farooq, Azib and others},
-  title     = {3DEgo: 3D Editing on the Go!},
-  booktitle = {European Conference on Computer Vision (ECCV)},
-  year      = {2024},
-  abbr      = {ECCV},
-  selected  = {true},
-  website   = {https://3dego.github.io/}
+  author      = {Khalid, Umar and Iqbal, Hasan and Farooq, Azib and others},
+  title       = {3DEgo: 3D Editing on the Go!},
+  booktitle   = {European Conference on Computer Vision (ECCV)},
+  year        = {2024},
+  abbr        = {ECCV},
+  preview     = {3dego.jpg},
+  abstract    = {We introduce 3DEgo to address a novel problem of directly synthesizing photorealistic 3D scenes from monocular videos guided by textual prompts. Conventional methods construct a text-conditioned 3D scene through a three-stage process, involving pose estimation using Structure-from-Motion (SfM) libraries like COLMAP, initializing the 3D model with unedited images, and iteratively updating the dataset with edited images to achieve a 3D scene with text fidelity. Our framework streamlines the conventional multi-stage 3D editing process into a single-stage workflow by overcoming the reliance on COLMAP and eliminating the cost of model initialization. We apply a diffusion model to edit video frames prior to 3D scene creation by incorporating our designed noise blender module for enhancing multi-view editing consistency, a step that does not require additional training or fine-tuning of T2I diffusion models. 3DEgo utilizes 3D Gaussian Splatting to create 3D scenes from the multi-view consistent edited frames, capitalizing on the inherent temporal continuity and explicit point cloud data. 3DEgo demonstrates remarkable editing precision, speed, and adaptability across a variety of video sources, as validated by extensive evaluations on six datasets, including our own prepared GS25 dataset. Project Page: https://3dego.github.io/},
+  arxiv       = {2407.10102},
+  pdf         = {https://arxiv.org/pdf/2407.10102},
+  website     = {https://3dego.github.io/},
+  bibtex_show = {true},
+  selected    = {true}
 }
 
 @article{bilal2024facial,
-  author    = {Bilal, Muhammad and Razzaq, Saqlain and Bhowmick, Nirman and Farooq, Azib and others},
-  title     = {Facial Recognition Using Hidden Markov Model and Convolutional Neural Network},
-  journal   = {Journal of Artificial Intelligence},
-  year      = {2024},
-  abbr      = {JAI}
+  author      = {Bilal, Muhammad and Razzaq, Saqlain and Bhowmick, Nirman and Farooq, Azib and others},
+  title       = {Facial Recognition Using Hidden Markov Model and Convolutional Neural Network},
+  journal     = {AI (MDPI)},
+  year        = {2024},
+  abbr        = {MDPI AI},
+  preview     = {facial.jpg},
+  abstract    = {Face recognition (FR) uses a passive approach to person authentication that avoids face-to-face contact. In this paper, we propose Hidden Markov Model (HMM) and Convolutional Neural Network (CNN) models for FR using the ORL and Yale datasets. Facial images are divided into 3, 4, 5, and 6 portions corresponding to their respective HMM hidden states, and quantized levels of eigenvalues and eigenvector coefficients of overlapping blocks define the observation states; a threshold for image selection and rejection is calculated using singular value decomposition (SVD). The HMM reaches recognition accuracies of up to 99.5\% on ORL and 94.67\% on Yale. The CNN model gives 100\% training and testing accuracy on ORL and 85.71\% testing accuracy on Yale. Our results show that the HMM model is cost-effective with lower accuracy, while the CNN model is more accurate but has a higher computational cost.},
+  html        = {https://doi.org/10.3390/ai5030079},
+  pdf         = {https://www.mdpi.com/2673-2688/5/3/79/pdf},
+  bibtex_show = {true}
 }
