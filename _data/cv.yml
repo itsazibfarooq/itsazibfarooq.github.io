@@ -1,0 +1,82 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Azib Farooq
+    - name: Location
+      value: Orlando, FL, USA
+    - name: Research Interests
+      value: Vision-Language-Action Models, World Models, Reinforcement Learning, Efficient Inference
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Computer Engineering (GPA 4.00/4.00)
+      institution: University of Central Florida, Orlando, FL (transferred from University of Cincinnati)
+      year: 2025 - 2028
+      description:
+        - Graduate Trustee Fellow
+    - title: M.S. in Computer Science (GPA 4.00/4.00)
+      institution: Miami University, Oxford, OH
+      year: 2023 - 2025
+      description:
+        - Fully funded MS scholarship
+    - title: B.Sc. in Electrical Engineering (GPA 3.30/4.00)
+      institution: University of Engineering and Technology, Taxila, Pakistan
+      year: 2018 - 2022
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Doctoral Researcher
+      institution: University of Central Florida, Orlando, FL
+      year: 2025 - Present
+      description:
+        - Developing action-aware visual token reduction to accelerate vision-language-action inference, cutting VLM prefill cost and per-step attention for flow-matching action experts (pi0, pi0.5) as well as autoregressive action decoders.
+        - Prototyping world-model-based training for flow-matching VLA policies, generating synthetic manipulation trajectories with a learned video world model and inverse-dynamics action labeling to reduce dependence on teleoperated demonstrations.
+    - title: Research Assistant
+      institution: Procter & Gamble Digital Accelerator, Cincinnati, OH
+      year: Summer 2026
+      description:
+        - Profiled a 25M-parameter ResNet defect-detection CNN deployed on an NVIDIA Jetson at a high-speed packaging line; layer-wise analysis showed a few convolution/BatchNorm blocks accounted for >60% of inference time.
+        - Ran a controlled compression study combining INT8 post-training quantization, structured channel pruning, and knowledge distillation, reducing model size ~4x with accuracy within ~1% of baseline.
+        - Deployed through ONNX and TensorRT (INT8/FP16) for ~3x lower latency and ~2.5x higher throughput, with an automated benchmarking and regression harness.
+    - title: Machine Learning Engineer
+      institution: AlgoLab, Snohomish, WA
+      year: 2022 - 2023
+      description:
+        - Prototyped BaseCase, a Socratic tutoring agent that maintains a belief state over student knowledge and plans question sequences via tree search with sparse pedagogical rewards.
+        - Built AlgoSense, a neural code-repair agent trained with syntax- and semantics-aware objectives and human-in-the-loop relabeling, lifting user retention by 60%.
+        - Designed the ETL pipeline for a 10-language code corpus, using MinHash LSH deduplication to cut redundancy by ~20%.
+        - Scaled the execution backend to 1,500+ concurrent users at 99.99% uptime and cut distributed-experiment coordination latency by 40%.
+
+- title: Skills
+  type: map
+  contents:
+    - name: Programming & HPC
+      value: Python, C++, CUDA, Triton
+    - name: Generative Modeling
+      value: PyTorch, Hugging Face (Transformers, Diffusers), Video Diffusion, World Models
+    - name: Decision-Making & Learning
+      value: Planning (Tree Search), Belief-State Modeling, Learning from Human Feedback
+    - name: Large-Scale Training
+      value: PyTorch DDP/FSDP, Mixed Precision, SLURM, Docker, Kubernetes
+    - name: Efficient Inference
+      value: Quantization (PTQ/QAT), Pruning, Distillation, TensorRT, ONNX Runtime, vLLM
+
+- title: Academic Service
+  type: list
+  contents:
+    - Reviewer, AAAI 2027, AAAI 2026, IJCNN 2026
+
+- title: Honors & Achievements
+  type: list
+  contents:
+    - Graduate Trustee Fellow, University of Central Florida
+    - Fully Funded MS Scholarship, Miami University
+    - Runner-Up, WebGPU Hackathon
+
+- title: Relevant Coursework
+  type: list
+  contents:
+    - Computer Vision, Advanced Computer Vision, 3D Computer Vision, Image Processing, Reinforcement Learning, Compressive Sensing, Advanced Linear Algebra, Stochastic Processes, Convex Optimization, LLM Fine-tuning, Data Structures and Algorithms
