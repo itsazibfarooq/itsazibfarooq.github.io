@@ -28,7 +28,7 @@ social: true  # includes social icons at the bottom of the page
 
 <b>Previously</b>, I worked on <b>diffusion-based 3D and 4D scene editing</b> (NeRF, 3D Gaussian Splatting), published at venues including <span class="venue">ECCV</span>, <span class="venue">ACL</span>, and <span class="venue">Information Fusion</span>. I also worked on <b>efficient on-device inference</b> (quantization, pruning, distillation, TensorRT) as a Research Assistant at the <b>Procter &amp; Gamble Digital Accelerator</b>, and on code-repair and tutoring agents as a Machine Learning Engineer at <b>AlgoLab</b>.
 
-I serve as a <b>reviewer</b> for <span class="venue">AAAI 2026/2027</span> and <span class="venue">IJCNN 2026</span>.
+I served as a <b>reviewer</b> for <span class="venue">AAAI 2026/2027</span> and <span class="venue">IJCNN 2026</span>.
 
 <div class="intro-links">
   <a href="mailto:azibfaroq@gmail.com" title="Email"><i class="fas fa-envelope"></i> Email</a>
